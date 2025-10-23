@@ -1,0 +1,675 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* min-width: 100vw; */
+  min-height: 100vh;
+  font-family: Urbanist;
+  background-color: rgb(28, 74, 106);
+}
+
+.about-parent {
+  margin: 2vw;
+  color: green;
+  font-size: 1.3vmax;
+}
+
+.about-text {
+  border-radius: 1vw;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+  font-weight: 600;
+}
+
+.about-text2 {
+  font-size: 2.5vmax;
+  font-weight: 800;
+}
+
+.about-part-1 {
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.about-part-2 {
+  color: white;
+  gap: 4rem;
+}
+
+.about-card-1, .about-card-2 {
+  padding: 2vmin;
+  background-color: rgb(0, 162, 0);
+  font-size: 1.2vmax;
+  border-radius: 2rem;
+}
+
+.form-img-parent {
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+  gap: 10rem;
+}
+
+.err {
+  color: red;
+  font-size: 1.5vmin;
+  margin-top: 0.5vmin;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* NavBar -------------------*/
+
+.nav-parent {
+  z-index: 100;
+  font-family: Urbanist;
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+  position: relative;
+  position: sticky;
+  top: 3vh;
+  width: 100%;
+}
+
+#img-logo {
+  width: 6vmax;
+}
+
+nav {
+  justify-content: center;
+  border-bottom: 1px solid;
+  box-shadow: 0px 2px 5px black;
+  width: 90%;
+  font-weight: 600;
+  background-color: rgb(0, 162, 0);
+  border-radius: 20px;
+}
+
+.nav-div {
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60vw;
+}
+
+.nav-parent-2 {
+  margin: 1.5vh 0vw 1.5vh 1.5vw;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+a6[data-active] {
+  background: green;
+  /* Change to the desired shade of green */
+}
+
+.nav-div-2 {
+  width: 70vw;
+}
+
+.nav-options {
+  padding-right: 2vw;
+  gap: 1vh;
+}
+
+/* Complaint */
+.tag-heading {
+  font-size: 2.5vmax;
+  font-weight: 700;
+}
+
+.tag-subHeading {
+  font-size: 1.2vmax;
+}
+
+.tag-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.complaint-box {
+  /* line-height: 3vmax; */
+  display: flex;
+  flex-direction: column;
+  /* padding-top: 5vw; */
+  gap: 3vmax;
+}
+
+.details-form {
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.complaint-parent {
+  flex: 1;
+  padding: 3vmax;
+  display: flex;
+  flex-direction: column;
+  gap: 4vmax;
+}
+
+.next-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.complaints-parent {
+  flex: 1;
+  flex-direction: column;
+  padding: 2vmax 2vmax;
+  gap: 3vmax;
+}
+
+#complaints-header {
+  padding: 2vw;
+}
+
+.button-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vmax;
+}
+
+.progress-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.progress-bar {
+  /* border: 2px blue solid; */
+  background-color: aliceblue;
+  height: 2vh;
+  border-radius: 50px;
+  width: 50vw;
+}
+
+.progress {
+  height: 100%;
+  background-color: rgba(7, 99, 7, 0.63);
+}
+
+.form-parent {
+  flex: 1;
+  /* padding: 5vmin 10vmin; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aliceblue; */
+  /* color: rgb(198, 232, 255); */
+  gap: 2vmin;
+}
+
+#sign-in-img {
+  width: 50vmax;
+}
+
+.buttons {
+  display: flex;
+  gap: 1vmax;
+  /* justify-content: center; */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  justify-content: center;
+  /* width: 47vw; */
+  /* height: 50vh; */
+  /* padding: 2vmin; */
+  /* border-radius: 10px; */
+  /* border: 3px green solid; */
+  /* background-color:#fefed4; */
+  gap: 2vmin;
+}
+.form-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  /* padding: 2vmin; */
+  /* border-radius: 10px; */
+  /* border: 3px green solid; */
+  /* background-color: #fefed4; */
+  gap: 2.5vmin;
+}
+.donation-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vmin;
+  justify-content: center;
+}
+.form1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+  /* padding: 2vmin; */
+  /* border-radius: 10px; */
+  /* border: 3px green solid; */
+  /* background-color: #fefed4; */
+  gap: 2vmin;
+}
+
+.err {
+  color: red;
+  font-size: 1.5vmin;
+  margin-top: 0.5vmin;
+}
+
+/* Educational */
+
+.edu-parent {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4vmax;
+  font-weight: 500;
+}
+
+.content,
+.content-2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  user-select: none;
+}
+
+.edu-div {
+  width: 70vw;
+  flex-direction: column;
+}
+
+.edu-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3vmax;
+  padding: 1vmin;
+  gap: 2vmax;
+  width: 50%;
+}
+
+.bg-elements {
+  position: absolute;
+  z-index: -2;
+}
+
+#back-img-1 {
+  filter: grayscale(100%);
+  z-index: -10;
+  width: 4rem;
+  opacity: 0.5;
+}
+
+#back-img-2 {
+  filter: grayscale(100%);
+  width: 2.5rem;
+  z-index: -10;
+  opacity: 0.5;
+}
+
+.edu-text-1 {
+  font-weight: 800;
+  font-size: 2vmax;
+}
+
+#edu-img {
+  width: 35vmin;
+  height: 35vmin;
+  border-radius: 50%;
+  border: 6px solid black;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  align-items: center;
+  padding-top: 5vmax;
+}
+
+.title-nav {
+  color: white;
+  font-size: 2vmax;
+}
+
+#arrow {
+  cursor: pointer;
+}
+
+/* Home */
+
+.home-parent {
+  flex: 1;
+  padding: 3vmax 4.5vmax;
+  display: flex;
+  color: green;
+  justify-content: space-between;
+}
+
+.home-section2 {
+  padding: 5vmax 4.5vmax;
+  text-align: center;
+  font-size: 2.5vmax;
+  color: green;
+  font-weight: 900;
+}
+
+.right-img {
+  width: 39vmax;
+}
+
+.right-img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.moto-div {
+  /* padding: 1vmax; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5vmax;
+  /* padding-top: 5vmax; */
+}
+
+.moto {
+  font-size: 4.5vmax;
+  font-weight: 600;
+}
+
+.sub-moto {
+  font-size: 1.4vmax;
+  font-weight: 500;
+  /* max-width: 25vmax; */
+  color: rgb(77, 125, 5);
+}
+
+a {
+  color: rgb(153, 255, 0);
+  cursor: pointer;
+}
+
+#listings-parent {
+  flex: 1;
+  padding: 2vmin 5vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.username {
+  color: rgb(77, 125, 5);
+  font-size: 4vmin;
+}
+/* Card Designing */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1vmax;
+  height: 100%;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+}
+.comp {
+  align-items: center;
+}
+.house-animation {
+  position: absolute;
+  top: -4vmax;
+  left: -1vmax;
+  width: 4vmax;
+}
+.loading {
+  width: 100vw;
+  /* height: 100%; */
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img > img:hover {
+  box-shadow: 0px 0px 4px #1b345b;
+}
+.card-img {
+  padding-bottom: 1vmin;
+  cursor: pointer;
+}
+.card-img > img {
+  border-radius: 10px;
+  width: 20vmax;
+  height: 15vmax;
+  transition: all 0.2s;
+}
+.card-author {
+  align-self: flex-start;
+}
+.card-tagline {
+  font-size: 1.5vmax;
+  font-weight: 700;
+}
+.newPostBtn {
+  position: fixed;
+  bottom: 3vmin;
+  right: 3vmin;
+}
+/* card-detail */
+.society-name {
+  width: 35vmax;
+  height: 7vmax;
+  text-align: center;
+  font-size: 3vmax;
+  padding-top: 2vmax;
+  gap: 1.5rem;
+}
+
+.society-users {
+  font-size: 1.5vmax;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.residents-parent {
+  width: 30rem;
+  border: 4px solid #1a202c;
+  border-radius: 20px;
+  padding: 2vw;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.residents-1,
+.residents-2,
+.residents-3 {
+  gap: 1rem;
+}
+
+.society-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9vmax;
+}
+/* Donation page */
+.donation-div {
+  padding: 3vmax;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5vmax;
+}
+
+.donationImg {
+  width: 35vmax;
+}
+
+.donation-ref {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  gap: 3vmax;
+  align-items: center;
+}
+
+.donation-form {
+  width: 100%;
+}
+
+.donation-text {
+  font-size: 3vmax;
+  max-width: 45vmax;
+  text-align: center;
+  font-weight: 900;
+  color: green;
+}
+/* User post */
+.blog-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog-username {
+  font-size: 2vmax;
+  font-style: italic;
+}
+.blog-title {
+  font-size: 3vmax;
+  font-weight: 900;
+}
+
+/* Media query */
+@media (max-width: 600px) {
+  .home-parent {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }
+
+  .moto-div {
+    align-items: center;
+  }
+
+  .moto {
+    font-size: 4.3vmax;
+    text-align: center;
+  }
+
+  .content,
+  .content-2 {
+    flex-direction: column;
+    text-align: center;
+    gap: 1vh;
+  }
+
+  .category-btn {
+    font-size: 50vmax;
+  }
+
+  .donation-ref {
+    gap: 9vmax;
+  }
+  .form1 {
+    width: 70vw;
+  }
+  #edu-img {
+    width: 80vmin;
+    height: 80vmin;
+  }
+  .edu-text {
+    font-size: 2vmax;
+    padding: 3vmin;
+    width: 95%;
+  }
+
+  #sign-in-img {
+    width: 80rem;
+  }
+}
+
+.tour-btn{
+  position: fixed;
+  bottom: 1.5vh;
+  right:1.5vw;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 800px) {
+  nav {
+    width: 90vw;
+  }
+
+  #img-logo {
+    width: 8vmax;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+  }
+
+  .edu-text-1 {
+    font-weight: 900;
+  }
+
+  .residents-parent {
+    border: 2px solid #1a202c;
+    width: 20rem;
+  }
+
+  .society-users {
+    font-size: 2vmax;
+  }
+  .form-img-parent {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  #sign-in-img {
+    width: 70rem;
+  }
+
+  .form {
+    gap: 4vmin;
+  }
+
+  .about-text {
+    width: 90%;
+    font-size: 2vmax;
+}
+.about-part-2 {
+  flex-direction: column;
+}
+}
