@@ -82,5 +82,3 @@ This project addresses the critical issue of improper waste disposal within resi
 ## Mobile Responsive!
 This website is completely mobile friendly..!
 
-Project by - [Fardeen](https://github.com/md-fardeen-khan),[Anas](https://github.com/Anas-Mohammad45),[Rikhil](https://github.com/rikhil7), [Aayush](https://github.com/aayushwrld), [Dwij](https://github.com/dwij13), [Pranshu](https://github.com/pranshupandey19)
-
